@@ -43,8 +43,8 @@ Napraviti klasu **FilmskaPremijera** u paketu **dvocas5.zadatak2** koja ima:
 
 - metodu **postaviNaziv** koja kao parametar dobija novu vrednost za naziv filma i postavlja atribut nazivFilma na tu vrednost samo ako je uneti naziv različit od null i nije prazan String. Ako uneta vrednost nije u redu, samo se ispisuje poruka o grešci na ekranu.
 - metodu **postaviDatumePremijera** koja ima dva parametra: datum i vreme premijere u Americi i datum i vreme premijere u ostatku sveta. Ova metoda postavlja unete vrednosti u odgovarajuće atribute, ali samo ako su oba datuma različita od null, i ako se odnose na vremenske trenutke u budućnosti. Ako to nije slučaj, ispisati samo poruku greške.**(isBefore i isAfter metode)**
-- metodu **ispisi** koja na ekranu ispisuje sve podatke o filmskoj premijeri u tri reda, uz propratni tekst i datume formatirane u obliku "DD.MM.GGGG.  hh:mm".**(ručno formatiranje datuma, pojedinačno uzimanje polja - metode getYear, getMonth...)**
 - metodu **pomeriPremijere** koja pomera premijere za godinu dana unapred.**(plus metode)**
+- metodu **ispisi** koja na ekranu ispisuje sve podatke o filmskoj premijeri u tri reda, uz propratni tekst i datume formatirane u obliku "DD.MM.GGGG.  hh:mm".**(ručno formatiranje datuma, pojedinačno uzimanje polja - metode getYear, getMonth... a onda i pominjanje DateTimeFormatter klase uz primer [dokumentacija](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html))**
 
 
 Napraviti klasu **TestFilmskaPremijera** u paketu **dvocas5.zadatak2** koja ima main metodu u kojoj pravi objekat klase FilmskaPremijera sa sledećim vrednostima atributa: Addams Familiy 2, 15.11.2021., 16.11.2021.Ispisati na ekranu sve podatke iz objekta.
